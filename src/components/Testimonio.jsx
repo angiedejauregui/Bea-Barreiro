@@ -43,7 +43,7 @@ const Testimonio = () => {
 
   return (
     <TestimoniosContainer>
-            <h2>Lo que dicen algunos de mis clientes</h2>
+            <h2>Lo que Dicen Algunos de mis Clientes</h2>
       <Swiper
         modules={[Navigation, Autoplay]}
         spaceBetween={20}

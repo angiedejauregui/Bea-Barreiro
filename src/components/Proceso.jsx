@@ -10,7 +10,7 @@ const Proceso = () => {
 
   return (
     <ProcesoContainer>
-        <h2>Paso a Paso de Nuestro Servicio</h2>
+        <h2>El Paso a Paso de Nuestro Servicio</h2>
       <div className="container" >
         <div data-aos="fade-up">
           <span>1</span>
@@ -42,7 +42,7 @@ const Proceso = () => {
         </div>
         <div data-aos="fade-up">
           <span>6</span>
-          <p>Te acompañamos en cada negociación hasta cerrar la operación.</p>
+          <p>Te acompañamos en todo el proceso hasta cerrar la operación.</p>
         </div>
       </div>
       <a href="https://wa.me/+5491150255154" target="_blank"><button>Quiero vender/alquilar</button></a>
@@ -90,7 +90,7 @@ const ProcesoContainer = styled.section`
 
     @media (max-width: 850px) { 
       padding: 2rem; 
-      
+
         .container {
             grid-template-columns: 1fr;
             margin: 4rem auto;

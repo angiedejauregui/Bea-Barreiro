@@ -12,7 +12,7 @@ const Cta = () => {
 
   return (
     <CtaContainer>
-        <h2 data-aos="fade-up">Contactanos y Hacemos un Analisis Comparativo Gratis</h2>
+        <h2 data-aos="fade-up">Contactanos y te Hacemos un Analisis Comparativo Gratuito</h2>
         <div>
         <a href="https://wa.me/+5491150255154" target='_blank' data-aos="fade-up">
         <button><IoLogoWhatsapp className='icono' />Contactanos</button></a>
