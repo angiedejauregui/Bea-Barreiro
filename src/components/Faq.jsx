@@ -53,7 +53,7 @@ const Faq = () => {
                 >
                   <path
                     d="M1.88 0.453125L8 6.55979L14.12 0.453125L16 2.33312L8 10.3331L0 2.33312L1.88 0.453125Z"
-                    fill={activeFaq === index ? "#A07904" : "#1C2806"}
+                    fill={activeFaq === index ? "#A07904" : "#000"}
                   />
                 </svg>
               </span>
@@ -79,14 +79,13 @@ const FaqContainer = styled.section`
     padding: 0rem 5rem;
     width: fit-content;
     margin: auto;
-    //color: var(--secondary-color);
   }
 
   h2 {
     border: none;
     padding: 0;
     margin: 0;
-    color: #000
+    color: #000;
   }
 
   .faq {

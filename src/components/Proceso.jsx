@@ -89,6 +89,8 @@ const ProcesoContainer = styled.section`
 
 
     @media (max-width: 850px) { 
+      padding: 2rem; 
+      
         .container {
             grid-template-columns: 1fr;
             margin: 4rem auto;

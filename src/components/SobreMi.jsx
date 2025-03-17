@@ -101,9 +101,16 @@ const SobreMiContainer = styled.section`
   @media (max-width: 582px) {
     .container {
       height: auto;
+      padding: 1.5rem;
+      width: 100%;
 
       h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
+      }
+
+      img {
+        width: 240px;
+        height: 260px;
       }
     }
   }
