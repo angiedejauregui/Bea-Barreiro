@@ -7,24 +7,12 @@ function App() {
 
   return (
     <>
-      {/* <Home />
-      <SobreMi />
-      <PorqueYo />
-      <Proceso />
-      <Testimonio />
-      <Faq />
-      <Cta />
-      <Footer /> */}
-
       <Routes>
       <Route path='/' element={<Layout />}>
         <Route path='/' element={<Home />} />
-        <Route path='*' element={<Home />} /> {/*  * significa que cuando el path sea cualquier otra, se muestre eso */}
+        <Route path='*' element={<Home />} /> 
       </Route>
       <Route path="/aviso-legal" element={<AvisoLegal />} />
-      {/* <Navbar />
-      <Home />
-      <CTA /> */}
     </Routes>
     </>
   )
